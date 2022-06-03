@@ -18,11 +18,12 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@", [AOSUtilities machineUDID]);
         NSLog(@"%@", [AOSUtilities machineSerialNumber]);
         
-        id one = [AOSUtilities retrieveOTPHeadersForDSID:@"-1"];
+        //id one = [AOSUtilities retrieveOTPHeadersForDSID:@"-1"];
         id two = [AOSUtilities retrieveOTPHeadersForDSID:@"-2"];
         
-        NSLog(@"%@", one);
+        //NSLog(@"%@", one);
         NSLog(@"%@", two);
+
     }
     return 0;
 }

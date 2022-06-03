@@ -9,17 +9,19 @@
 /* Begin PBXBuildFile section */
 		53E56527246873BD0018090B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E56526246873BD0018090B /* main.m */; };
 		53E56533246B1C320018090B /* AOSKit.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E56531246B1BD30018090B /* AOSKit.tbd */; };
+		CED0893F284A523600CA472D /* AOSKit in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53E56523246873BD0018090B /* AOSKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		53E56521246873BD0018090B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			buildActionMask = 12;
+			dstPath = Users/user/tags;
 			dstSubfolderSpec = 0;
 			files = (
+				CED0893F284A523600CA472D /* AOSKit in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -104,7 +106,7 @@
 		53E5651B246873BD0018090B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = vtky;
 				TargetAttributes = {
 					53E56522246873BD0018090B = {
@@ -118,6 +120,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 53E5651A246873BD0018090B;
 			productRefGroup = 53E56524246873BD0018090B /* Products */;
@@ -167,6 +170,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -226,6 +230,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -255,6 +260,7 @@
 		53E5652B246873BD0018090B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				LIBRARY_SEARCH_PATHS = (
@@ -269,6 +275,7 @@
 		53E5652C246873BD0018090B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				LIBRARY_SEARCH_PATHS = (
